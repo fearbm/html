@@ -1,0 +1,100 @@
+*{
+	margin: 0px;
+	padding: 0px;
+
+}
+header{
+	margin: 0px 0px 10px 0px;
+	text-align: center;
+	background: green;
+}
+header > hgroup{
+	background: hsla(220, 80%, 70%, 0.85);
+}
+header > hgroup > h1, h2{
+	color: #ccc;
+	text-shadow: 1px 2px 5px black;
+}
+header > hgroup > h2{
+	padding: 0px 0px 5px 0px;
+}
+nav{
+	width: 100%;
+}
+div#principal > nav > ul{
+	display: block;
+	overflow: hidden;
+	width: 50%;
+	margin: 0 auto;
+	background: hsla(200, 90%, 80%, 0.85);
+	border-radius: 5px 5px 20px 20px;
+	box-shadow: inset 1px 1px 50px black;
+}
+div#principal > nav > ul > li{
+	display: block;
+	list-style: none;
+	float: left;
+	padding: 10px;
+	cursor: pointer;
+	color: white;
+	text-shadow: 1px 1px 10px black;
+	-webkit-transition: text-shadow, -webkit-transform 0.3s ease-in-out;
+}
+div#principal > nav > ul > li:hover{
+	text-shadow: none;
+	-webkit-transform: scale(1.2);
+}
+/*·································································*/
+div#principal article[name="categorias"]{
+ 	height: 75px;
+ 	margin: 20px 0px 0px 10px;	
+}
+div#principal article[name="hobbies"]{
+ 	height: 45px;
+ 	margin: 0px 0px 0px 10px;	
+}
+div#principal article[name="buscar"]{
+ 	height: 45px;
+ 	margin: 0px 0px 0px 10px;	
+}
+label{
+	font-size: 20px;
+	
+}
+select{
+	color: hsla(220, 80%, 70%, 0.85);
+	text-shadow: 1px 1px 2px hsla(190, 80%, 70%, 0.85);
+}
+button{
+	background: hsla(198, 70%, 70%, 0.89);
+	border: none;
+	color: white;
+	padding: 5px;
+	-webkit-transition: -webkit-transform 0.5s ease-in-out;
+}
+button:hover{
+	-webkit-transform: scale(1.2);
+}
+/*PERSONAS*/
+ section{
+ 	overflow: hidden;
+ 	margin-bottom: 10px;
+ }
+ section > article > figure > img{
+ 	float: left;
+ 	padding: 10px;
+ }
+ section > article > figcaption{
+ 	padding: 10px;
+ 	float: left;
+ 	/*background: rgba(0, 0, 0, 0.65);*/
+ 	color: white;
+ 	text-shadow: 1px 0px 5px black;
+ }
+ section > article > article > button{
+ 	float: right;
+ 	margin: 20px 10px 0px 0px;
+ }
+ .color_fondo{
+ background: hsla(360, 70%, 50%, 0.85);
+ }
